@@ -70,5 +70,5 @@ head(akiDataFrame)
 
 sportTweets <- userTimeline("Sport24News", n = 200)
 sportDataFrame <- twListToDF(sportTweets)
-write.csv(sportDataFrame, file="aki.csv")
+write.csv(sportDataFrame, file="sport.csv")
 head(sportDataFrame)
